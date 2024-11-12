@@ -14,4 +14,4 @@ jobs:
       - name: Bajar codigo
         uses: actions/checkout@v4
       - name: Probar codigo
-        run: pytest main.py
+        run: pytest test.py
